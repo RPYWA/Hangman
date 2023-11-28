@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hangman{
+    border: 1px solid white;
+    width: 1500px;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 50px;
+    border: 1px solid white;
+    color: white;
+}
+
+h1{
+    font-size: 75px;
+    color: white;
+}
